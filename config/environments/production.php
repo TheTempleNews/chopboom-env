@@ -11,3 +11,6 @@ define('WP_SITEURL', getenv('WP_SITEURL'));
 ini_set('display_errors', 0);
 define('WP_DEBUG_DISPLAY', false);
 define('SCRIPT_DEBUG', false);
+
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
