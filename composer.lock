@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a16929a44413580330d1ffb2854e383c",
+    "hash": "63b95075c535317cff84efb5006201b3",
     "packages": [
         {
             "name": "composer/installers",
@@ -130,6 +130,47 @@
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
             "time": "2013-03-15 17:51:14"
+        },
+        {
+            "name": "montchr/roots-wrapper-override",
+            "version": "0.9.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:montchr/roots-wrapper-override.git",
+                "reference": "2d3b43e38428a4d641aacd2d49c5f1dc4acb9f32"
+            },
+            "dist": {
+                "type": "git",
+                "url": "git@github.com:montchr/roots-wrapper-override.git",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "v1.0.12",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Fox",
+                    "homepage": "http://roots.io"
+                }
+            ],
+            "description": "A private fork of the Roots Wrapper Override plugin for WordPress.",
+            "homepage": "http://roots.io",
+            "keywords": [
+                "plugin",
+                "roots",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/montchr/roots-wrapper-override/tree/0.9.1",
+                "issues": "https://github.com/montchr/roots-wrapper-override/issues"
+            },
+            "time": "2014-04-22 00:18:12"
         },
         {
             "name": "vlucas/phpdotenv",
