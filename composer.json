@@ -43,6 +43,10 @@
       "url": "git@github.com:montchr/roots-wrapper-override.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:montchr/acf-repeater.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "wordpress",
@@ -66,6 +70,7 @@
     "vlucas/phpdotenv": "~1.0.6",
     "wpackagist/w3-total-cache": "~0.9.4",
     "montchr/roots-wrapper-override": "0.9.1",
+    "montchr/acf-repeater": "~1.1.1",
     "wpackagist/aesop-story-engine": "~1.0.2",
     "wpackagist/nginx-helper": "~1.8",
     "wpackagist/advanced-custom-fields": "~4.3.7"
