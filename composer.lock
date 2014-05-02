@@ -165,7 +165,7 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/montchr/acf-repeater/tree/master",
+                "source": "https://github.com/montchr/acf-repeater/tree/1.1.1",
                 "issues": "https://github.com/montchr/acf-repeater/issues"
             },
             "time": "2014-05-02 01:35:02"
