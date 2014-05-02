@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a3c1a0eb96d53fb458e9221fd1b5ea32",
+    "hash": "ed8bd74ed7fee844fb76c5061101990a",
     "packages": [
         {
             "name": "composer/installers",
@@ -132,6 +132,45 @@
             "time": "2013-03-15 17:51:14"
         },
         {
+            "name": "montchr/acf-repeater",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:montchr/acf-repeater.git",
+                "reference": "e15bf44b4bcce6fbe47471a7d9dafa026d6de23b"
+            },
+            "dist": {
+                "type": "git",
+                "url": "git@github.com:montchr/acf-repeater.git",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "v1.0.12",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Elliot Condon",
+                    "homepage": "http://www.elliotcondon.com"
+                }
+            ],
+            "description": "Personal private mirror of ACF Repeater plugin for WordPress.",
+            "homepage": "http://www.advancedcustomfields.com/add-ons/repeater-field/",
+            "keywords": [
+                "acf",
+                "advanced custom fields",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/montchr/acf-repeater/tree/master",
+                "issues": "https://github.com/montchr/acf-repeater/issues"
+            },
+            "time": "2014-05-02 01:35:02"
+        },
+        {
             "name": "montchr/roots-wrapper-override",
             "version": "0.9.1",
             "source": {
@@ -254,15 +293,15 @@
         },
         {
             "name": "wpackagist/aesop-story-engine",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/aesop-story-engine/",
-                "reference": "tags/1.0.3"
+                "reference": "tags/1.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/aesop-story-engine.1.0.3.zip",
+                "url": "http://downloads.wordpress.org/plugin/aesop-story-engine.1.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
