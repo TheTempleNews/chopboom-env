@@ -39,6 +39,10 @@
       "url": "http://wpackagist.org"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:montchr/roots-wrapper-override.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "wordpress",
@@ -61,8 +65,10 @@
     "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "~1.0.6",
     "wpackagist/w3-total-cache": "~0.9.4",
+    "montchr/roots-wrapper-override": "0.9.1",
     "wpackagist/aesop-story-engine": "~1.0.2",
-    "wpackagist/nginx-helper": "~1.8"
+    "wpackagist/nginx-helper": "~1.8",
+    "wpackagist/advanced-custom-fields": "~4.3.7"
   },
   "extra": {
     "installer-paths": {

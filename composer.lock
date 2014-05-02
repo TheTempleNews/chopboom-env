@@ -4,6 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
     "hash": "0938def2a240e0f4d2c14abc1e28de02",
+    "hash": "a3c1a0eb96d53fb458e9221fd1b5ea32",
     "packages": [
         {
             "name": "composer/installers",
@@ -132,6 +133,47 @@
             "time": "2013-03-15 17:51:14"
         },
         {
+            "name": "montchr/roots-wrapper-override",
+            "version": "0.9.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:montchr/roots-wrapper-override.git",
+                "reference": "2d3b43e38428a4d641aacd2d49c5f1dc4acb9f32"
+            },
+            "dist": {
+                "type": "git",
+                "url": "git@github.com:montchr/roots-wrapper-override.git",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "v1.0.12",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Fox",
+                    "homepage": "http://roots.io"
+                }
+            ],
+            "description": "A private fork of the Roots Wrapper Override plugin for WordPress.",
+            "homepage": "http://roots.io",
+            "keywords": [
+                "plugin",
+                "roots",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/montchr/roots-wrapper-override/tree/0.9.1",
+                "issues": "https://github.com/montchr/roots-wrapper-override/issues"
+            },
+            "time": "2014-04-22 00:18:12"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "1.0.6",
             "source": {
@@ -194,14 +236,19 @@
         {
             "name": "wpackagist/aesop-story-engine",
             "version": "1.0.3",
+            "name": "wpackagist/advanced-custom-fields",
+            "version": "4.3.7",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/aesop-story-engine/",
-                "reference": "tags/1.0.3"
+                "reference": "tags/1.0.3",
+                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/aesop-story-engine.1.0.3.zip",
+                "url": "http://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -209,7 +256,8 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/aesop-story-engine/"
+            "homepage": "http://wordpress.org/plugins/aesop-story-engine/",
+            "homepage": "http://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
             "name": "wpackagist/nginx-helper",
