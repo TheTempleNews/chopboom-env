@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5f30f2ba86fd20a0aa0e4d8f1a406523",
+    "hash": "b4bbfc64b28e726f77724940a2ab0b6d",
     "packages": [
         {
             "name": "composer/installers",
@@ -165,7 +165,7 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/montchr/acf-repeater/tree/1.1.1",
+                "source": "https://github.com/montchr/acf-repeater/tree/master",
                 "issues": "https://github.com/montchr/acf-repeater/issues"
             },
             "time": "2014-05-02 01:35:02"
@@ -259,10 +259,10 @@
         },
         {
             "name": "wordpress",
-            "version": "3.8.3",
+            "version": "3.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/3.8.3.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
