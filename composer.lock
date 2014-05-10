@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e79bcae9aeb3e74dfd2ddc2e4fa89d5e",
+    "hash": "5f30f2ba86fd20a0aa0e4d8f1a406523",
     "packages": [
         {
             "name": "composer/installers",
@@ -273,7 +273,7 @@
         },
         {
             "name": "wpackagist/advanced-custom-fields",
-            "version": "4.3.7",
+            "version": "4.3.8",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
@@ -310,6 +310,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/aesop-story-engine/"
+        },
+        {
+            "name": "wpackagist/image-lazy-load",
+            "version": "1.0.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/image-lazy-load/",
+                "reference": "tags/1.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/image-lazy-load.1.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/image-lazy-load/"
         },
         {
             "name": "wpackagist/nginx-helper",
@@ -350,6 +370,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
+            "name": "wpackagist/wp-retina-2x",
+            "version": "1.9.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-retina-2x/",
+                "reference": "tags/1.9.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-retina-2x.1.9.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wp-retina-2x/"
         }
     ],
     "packages-dev": [

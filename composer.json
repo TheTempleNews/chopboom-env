@@ -73,7 +73,9 @@
     "montchr/acf-repeater": "~1.1.1",
     "wpackagist/aesop-story-engine": "~1.0.2",
     "wpackagist/nginx-helper": "~1.8",
-    "wpackagist/advanced-custom-fields": "~4.3.7"
+    "wpackagist/advanced-custom-fields": "~4.3.7",
+    "wpackagist/wp-retina-2x": "~1.9.4",
+    "wpackagist/image-lazy-load": "~1.0.5"
   },
   "extra": {
     "installer-paths": {
